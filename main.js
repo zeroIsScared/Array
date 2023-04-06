@@ -278,4 +278,38 @@ return user;
 
 let usersById = groupById(users);
 
-console.log(usersById);
+console.log(usersById);  
+
+//-------------------------------------------------------------------------------------
+
+// What is this code going to show?
+
+// let fruits = ["Apples", "Pear", "Orange"];
+
+// // push a new value into the "copy"
+// let shoppingCart = fruits;
+// shoppingCart.push("Banana");
+
+// // what's in fruits?
+// alert( fruits.length ); // ?
+
+// the code will display in an alert window the number 3, which is the length of the array after addidn the Banana element.
+
+//-----------------------------------------------------------------------------------
+
+
+// Let’s try 5 array operations.
+
+// Create an array styles with items “Jazz” and “Blues”.
+// const styles = ['Jazz', 'Blues'];
+// // Append “Rock-n-Roll” to the end.
+// styles.push('Rock-n-Roll');
+// alert(styles);
+// // Replace the value in the middle with “Classics”. Your code for finding the middle value should work for any arrays with odd length.
+// const middleElement = Math.trunc(styles.length / 2);
+// styles[middleElement] = 'Classics';
+// alert(styles);
+// // Strip off the first value of the array and show it.
+// alert(styles.shift());
+// // Prepend Rap and Reggae to the array.
+// styles.unshift('Rap', 'Reggae');
